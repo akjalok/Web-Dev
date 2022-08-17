@@ -1,0 +1,182 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    
+    position: relative;
+    
+    background-color: #C7BEA2;
+
+}
+
+.header {
+    background-color: #F6D7A7;
+    border: 2px;
+    
+    
+    border-style: solid;
+    text-align: center;
+
+    border-color: black;
+    color: #5E454B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100px;
+    padding: 0 px;
+
+
+
+
+
+}
+
+.item_container {
+
+    margin: auto;
+
+    background-color: #6B4F4F;
+
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blanchedalmond;
+
+}
+
+
+
+
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+th {
+
+    font: 1.25em sans-serif;
+
+}
+
+table {
+    margin-left: 200px;
+}
+
+li {
+    margin-left: 40px;
+    display: list-item;
+  
+    padding: 20px;
+
+    
+}
+/* Rectangle 1 */
+
+.boxes{
+    right: 8px;
+    position: fixed;
+    margin-top: 100px;
+
+    
+    
+    
+    
+
+}
+.boxes1{
+    width: 40px;
+    height: 40px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height:30px;
+    text-align: center;
+    color: #1C0808;
+
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+/* Rectangle 2 */
+
+.boxes2{
+
+width: 40px;
+height: 40px;
+
+background: #B35E5E;
+font-family: Prompt;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 30px;
+text-align: center;
+color: #473737
+}
+
+/* Rectangle 3 */
+
+.boxes3{
+    width: 40px;
+    height: 40px;
+    font-family: Prompt;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 30px;
+text-align: center;
+color: #BD8B6F;
+
+
+background: #482828;
+}
+
+/* Rectangle 4 */
+
+.boxes4{
+
+    width: 40px;
+    height: 40px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+background: #3A2424;
+ color: #B9A0A0;
+}
+
+/* Rectangle 5 */
+
+.boxes5{
+
+    width: 40px;
+    height: 40px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+background: #1C1818;
+color: #FBECEC;}
+a{
+    text-decoration:none;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    font-family: prompt;
+    padding: auto;
+}
