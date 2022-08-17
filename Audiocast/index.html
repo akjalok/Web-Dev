@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+
+<body>
+    <section  id="Navbar">
+        <span id="dash">Dashboard</span>
+        <span id="sell">Sell Music</span>
+        <span id="prem">Premium</span>
+        <span id="abtus">About Us</span>
+        <span id="trnd">Trending</span>
+        <span id="guide">Guide</span>
+        <span id="sb"> 
+            <input type="search" id="query" name="q" placeholder="Search">
+        </span>
+            <div><img class="SearchImg" src="Vector.png"></div>
+            <div><img class="pfp" src="Ellipse 1.png"></div>
+            
+    </section>
+    <section id="Body">
+        <div class="a"># Publish Music</div>
+        <div class="b">Upload Cover Art</div>
+        <div class="c">Upload Audio Files</div>
+    </section>
+    <section>
+        <form>
+        <div class="ab">
+        <div><img class="up" src="down.png"></div>
+        <header>Drag & Drop to Upload File</header>
+        <div id="abc">OR</div>
+        
+        <input type="file"
+        id="avatar" name="avatar"
+        accept="image/png, image/jpeg" required >
+ 
+        </div>
+        <div class="bc">
+        <div><img class="up" src="down.png"></div>
+        <header>Drag & Drop to Upload File</header>
+        <div id="abc">OR</div>
+        
+        <input type="file"
+        id="avatar" name="avatar"
+        accept="audio/mp3, audio/wav" required >
+ 
+        </div>
+    
+    
+       
+        <div id="form">
+          <input type=text id="album" placeholder="Album/Single Title" required>
+          <input type=text id="artist" placeholder="Artists Featured" required>
+          <textarea name="Text1" cols="40" rows="5" placeholder="Description"></textarea>
+          </div>
+          <div id="form2">
+            <select name="category" id="category" >
+                <option value="" disabled selected>Select Music Category</option> 
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+                <option value="Indie">Indie</option>
+                <option value="Hip-Hop">Hip-Hop</option>
+                <option value="EDM">Electronic dance music</option>
+            </select>
+            <input type=number id="base" placeholder="Base Price in ETH" required>
+            <a href="google.com" target="_blank">Terms and Conditions</a>
+            <div id="check">
+            <input type="checkbox" id="agree" name="agree" value="agree" required>
+            <label for="agree">I Agree</label>
+        </div>
+        <button class="continue">Continue</button>
+        <button class="cancel">Cancel</button>
+        
+
+        </form>
+    </section>
+    
+</body>
+
+</html>
